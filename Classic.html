@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Music player </title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://img.icons8.com/clouds/100/000000/r.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+    <script src="main.js"></script>
+    <style>
+        .iw{
+            height: 300px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+  <!-- #### header###### -->
+  
+  <div class="main_menu opacity-2">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-lg" style="background-color:rgba(62, 77, 66, 0.7)">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand logo_h " href="index.html" style="font-size: 30px;">  Tamilla</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+          <ul class="nav navbar-nav menu_nav ml-auto">
+            <!-- <li class="nav-item active"><a class="nav-link" href="index.html">metal</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="rap.html">Raps</a></li>
+            <li class="nav-item"><a class="nav-link" href="Classic.html">Classic</a></li>
+            <li class="nav-item"><a class="nav-link" href="folk.html">Folk</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+<!-- ##### Song Language Area Start ##### -->
+<section class="events-area section-padding-100">
+    <div class="container">
+        <div class="row">
+
+          <!--  Song Language Area -->
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="single-event-area mb-30">
+                  <div class="event-thumbnail">
+                      <img class="iw" src="img/bg-img/c1.jpg" alt="">
+                  </div>
+                  <div class="event-text">
+                      <h4>sinkara velanee</h4>
+                      <div class="event-meta-data">
+                          <a href="#" class="event-place">Classical Song</a>
+                          <a href="#" class="event-date">Listen with us</a>
+                      </div>
+                      <button type="button" name="button" id="start-c1" class="btn btn-light w-25">play</button>
+                      <button type="button" name="button" id="stop-c1" class="btn btn-light w-25">stop</button>
+                  </div>
+              </div>
+          </div>
+          <!--  Song Language Area -->
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="single-event-area mb-30">
+                  <div class="event-thumbnail">
+                      <img class="iw" src="img/bg-img/c2.jpg" alt="">
+                  </div>
+                  <div class="event-text">
+                      <h4>Thalaphy</h4>
+                      <div class="event-meta-data">
+                          <a href="#" class="event-place">Classical Song</a>
+                          <a href="#" class="event-date">Listen with us</a>
+                      </div>
+                      <button type="button" name="button" id="start-c2" class="btn btn-light w-25">play</button>
+                      <button type="button" name="button" id="stop-c2" class="btn btn-light w-25">stop</button>
+                  </div>
+              </div>
+          </div>
+          <!--  Song Language Area -->
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="single-event-area mb-30">
+                  <div class="event-thumbnail">
+                      <img class="iw" src="img/bg-img/c3.jpg" alt="">
+                  </div>
+                  <div class="event-text">
+                      <h4>Porale ponnuthai..</h4>
+                      <div class="event-meta-data">
+                          <a href="#" class="event-place">Classical Song</a>
+                          <a href="#" class="event-date">Listen with us</a>
+                      </div>
+                      <button type="button" name="button" id="start-c3" class="btn btn-light w-25">play</button>
+                      <button type="button" name="button" id="stop-c3" class="btn btn-light w-25">stop</button>
+                  </div>
+              </div>
+          </div>
+
+
+           <!--  Song Language Area -->
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="single-event-area mb-30">
+                  <div class="event-thumbnail">
+                      <img class="iw" src="img/bg-img/c4.jpg" alt="">
+                  </div>
+                  <div class="event-text">
+                      <h4>Her serendipity</h4>
+                      <div class="event-meta-data">
+                          <a href="#" class="event-place">Classical Song</a>
+                          <a href="#" class="event-date">Listen with us</a>
+                      </div>
+                      <button type="button" name="button" id="start-c4" class="btn btn-light w-25">play</button>
+                      <button type="button" name="button" id="stop-c4" class="btn btn-light w-25">stop</button>
+                  </div>
+              </div>
+          </div>
+
+
+            <!--  Song Language Area -->
+          <div class="col-12 col-md-6 col-lg-4">
+                <div class="single-event-area mb-30">
+                    <div class="event-thumbnail">
+                        <img class="iw" src="img/bg-img/c5.jpg" alt="">
+                    </div>
+                    <div class="event-text">
+                        <h4>Her serendipity</h4>
+                        <div class="event-meta-data">
+                            <a href="#" class="event-place">Classical Song</a>
+                            <a href="#" class="event-date">Listen with us</a>
+                        </div>
+                        <button type="button" name="button" id="start-c5" class="btn btn-light w-25">play</button>
+                        <button type="button" name="button" id="stop-c5" class="btn btn-light w-25">stop</button>
+                    </div>
+                </div>
+          </div>
+
+              <!--  Song Language Area -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="single-event-area mb-30">
+                    <div class="event-thumbnail">
+                        <img class="iw" src="img/bg-img/c6.jpg" alt="">
+                    </div>
+                    <div class="event-text">
+                        <h4>Her serendipity</h4>
+                        <div class="event-meta-data">
+                            <a href="#" class="event-place">Classical Song</a>
+                            <a href="#" class="event-date">Listen with us</a>
+                        </div>
+                        <button type="button" name="button" id="start-c6" class="btn btn-light w-25">play</button>
+                        <button type="button" name="button" id="stop-c6" class="btn btn-light w-25">stop</button>
+                    </div>
+                </div>
+          </div>
+
+
+           <!--  Song Language Area -->
+           <div class="col-12 col-md-6 col-lg-4">
+            <div class="single-event-area mb-30">
+                <div class="event-thumbnail">
+                    <img class="iw" src="img/bg-img/c7.jpg" alt="">
+                </div>
+                <div class="event-text">
+                    <h4>Her serendipity</h4>
+                    <div class="event-meta-data">
+                        <a href="#" class="event-place">Classical Song</a>
+                        <a href="#" class="event-date">Listen with us</a>
+                    </div>
+                    <button type="button" name="button" id="start-c7" class="btn btn-light w-25">play</button>
+                    <button type="button" name="button" id="stop-c7" class="btn btn-light w-25">stop</button>
+                </div>
+            </div>
+        </div>
+
+
+          <!--  Song Language Area -->
+        <div class="col-12 col-md-6 col-lg-4">
+              <div class="single-event-area mb-30">
+                  <div class="event-thumbnail">
+                      <img class="iw" src="img/bg-img/c8.jpg" alt="">
+                  </div>
+                  <div class="event-text">
+                      <h4>Her serendipity</h4>
+                      <div class="event-meta-data">
+                          <a href="#" class="event-place">Classical Song</a>
+                          <a href="#" class="event-date">Listen with us</a>
+                      </div>
+                      <button type="button" name="button" id="start-c8" class="btn btn-light w-25">play</button>
+                      <button type="button" name="button" id="stop-c8" class="btn btn-light w-25">stop</button>
+                  </div>
+              </div>
+        </div>
+
+            <!--  Song Language Area -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="single-event-area mb-30">
+                  <div class="event-thumbnail">
+                      <img class="iw" src="img/bg-img/c9.jpg" alt="">
+                  </div>
+                  <div class="event-text">
+                      <h4>Her serendipity</h4>
+                      <div class="event-meta-data">
+                          <a href="#" class="event-place">Classical Song</a>
+                          <a href="#" class="event-date">Listen with us</a>
+                      </div>
+                      <button type="button" name="button" id="start-c9" class="btn btn-light w-25">play</button>
+                      <button type="button" name="button" id="stop-c9" class="btn btn-light w-25">stop</button>
+                  </div>
+              </div>
+        </div>
+
+
+
+
+        </div>
+    </div>
+</section>
+<!-- ##### Song Language Area End ##### -->
+</body>
+</html>
