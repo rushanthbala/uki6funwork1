@@ -84,7 +84,7 @@ $(document).ready(function() {
         });
   
   
-      SC.stream('/tracks/53134277',function(sound){
+      SC.stream('/tracks/469754628',function(sound){
               $('#start-c4').click(function(e) {
                      e.preventDefault();
                      sound.start();
@@ -94,6 +94,64 @@ $(document).ready(function() {
                      sound.stop();
                   });
             });
+
+
+            SC.stream('/tracks/56021284',function(sound){
+              $('#start-c5').click(function(e) {
+                     e.preventDefault();
+                     sound.start();
+                   });
+              $('#stop-c5').click(function(e) {
+                     e.preventDefault();
+                     sound.stop();
+                  });
+            });
+
+            SC.stream('/tracks/668644226',function(sound){
+              $('#start-c6').click(function(e) {
+                     e.preventDefault();
+                     sound.start();
+                   });
+              $('#stop-c6').click(function(e) {
+                     e.preventDefault();
+                     sound.stop();
+                  });
+            });
+
+            SC.stream('/tracks/121880627',function(sound){
+              $('#start-c7').click(function(e) {
+                     e.preventDefault();
+                     sound.start();
+                   });
+              $('#stop-c7').click(function(e) {
+                     e.preventDefault();
+                     sound.stop();
+                  });
+            });
+        
+
+            SC.stream('/tracks/20771054',function(sound){
+              $('#start-c8').click(function(e) {
+                     e.preventDefault();
+                     sound.start();
+                   });
+              $('#stop-c8').click(function(e) {
+                     e.preventDefault();
+                     sound.stop();
+                  });
+            });
+
+            SC.stream('/tracks/341126160',function(sound){
+              $('#start-c9').click(function(e) {
+                     e.preventDefault();
+                     sound.start();
+                   });
+              $('#stop-c9').click(function(e) {
+                     e.preventDefault();
+                     sound.stop();
+                  });
+            });
+
 
 
         SC.stream('/tracks/121880627',function(sound){
