@@ -82,6 +82,18 @@ $(document).ready(function() {
                  sound.stop();
               });
         });
+  
+  
+      SC.stream('/tracks/53134277',function(sound){
+              $('#start-c4').click(function(e) {
+                     e.preventDefault();
+                     sound.start();
+                   });
+              $('#stop-c4').click(function(e) {
+                     e.preventDefault();
+                     sound.stop();
+                  });
+            });
 
 
         SC.stream('/tracks/121880627',function(sound){
