@@ -207,11 +207,11 @@ $(document).ready(function() {
   //95987913
   
           SC.stream('/tracks/95987913',function(sound){
-            $('#start-f4').click(function(e) {
+            $('#start-f5').click(function(e) {
                    e.preventDefault();
                    sound.start();
                  });
-            $('#stop-f4').click(function(e) {
+            $('#stop-f5').click(function(e) {
                    e.preventDefault();
                    sound.stop();
                 });
